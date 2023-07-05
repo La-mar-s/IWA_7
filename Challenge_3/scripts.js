@@ -11,8 +11,8 @@ const divider = "----------------------------------";
 // Only change below this line
 
 const owed = parseInt("R" + leoBalance + sarahBalance);
-const leo = '{leoName} + {leoSurname} + "Owed" + "R" + {sarahBalance}';
-const sarah = '{leoName} + {surname} + "Owed" + "R" + {sarahBalance}';
+const leo = leoName + leoSurname + "Owed" + "R" + sarahBalance;
+const sarah = sarahName + sarahSurname + "Owed" + "R" + sarahBalance;
 const total = "Total amount owed: ";
 const result = leo + sarah + divider + divider + total + owed + divider;
 
